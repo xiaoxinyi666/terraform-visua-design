@@ -28,4 +28,16 @@ resource "aws_subnet" "subnet3" {
   vpc_id = 
 }
 
-data "aws_availability_zones" "availability_zones" {}
+variable "variable1" {}
+
+terraform {}
+
+output "output1" {}
+
+output "output2" {}
+
+variable "variable2" {}
+
+variable "region" {}
+
+variable "region" {}
