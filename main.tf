@@ -10,8 +10,7 @@ resource "aws_vpc" "vpc" {
 resource "aws_subnet" "public_sunnet1_az_a" {
   cidr_block = 10.0.101.0
   vpc_id = aws_vpc.vpc
-  availability_zone_id = 
-  availability_zone = 
+  availability_zone_id = data.aws_availability_zones.availability_zones
 }
 
 resource "aws_subnet" "subnet1" {
