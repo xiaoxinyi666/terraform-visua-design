@@ -28,16 +28,3 @@ resource "aws_subnet" "subnet3" {
   vpc_id = 
 }
 
-variable "variable1" {}
-
-terraform {}
-
-output "output1" {}
-
-output "output2" {}
-
-variable "variable2" {}
-
-variable "region" {}
-
-variable "region" {}
