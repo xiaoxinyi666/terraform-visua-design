@@ -24,7 +24,7 @@ resource "aws_subnet" "subnet2" {
 
 resource "aws_subnet" "subnet3" {
   cidr_block = 
-  vpc_id = 
+  vpc_id = aws_vpc.vpc
 }
 
 resource "aws_ecs_cluster" "ecs_cluster" {
